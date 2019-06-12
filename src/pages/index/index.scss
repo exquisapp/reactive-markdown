@@ -1,0 +1,15 @@
+.text-box-container{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px;
+    .text-box{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+        font-size: 12pt;
+        width: 400px;
+        height: 400px; 
+        overflow-y: scroll;
+        margin: 20px;
+        border: 1px solid #eee;
+        padding: 20px;
+    }
+}
